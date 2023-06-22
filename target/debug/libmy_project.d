@@ -1,1 +1,1 @@
-/home/runner/LearningRustWithEntirelyTooManyLinkedLists/target/debug/libmy_project.rlib: /home/runner/LearningRustWithEntirelyTooManyLinkedLists/src/first.rs /home/runner/LearningRustWithEntirelyTooManyLinkedLists/src/lib.rs
+C:\Users\David\my_code\LearningRustWithEntirelyTooManyLinkedLists\target\debug\libmy_project.rlib: C:\Users\David\my_code\LearningRustWithEntirelyTooManyLinkedLists\src\first.rs C:\Users\David\my_code\LearningRustWithEntirelyTooManyLinkedLists\src\lib.rs
