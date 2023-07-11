@@ -15,6 +15,8 @@ impl<T> List<T> {
   pub fn new() -> Self {
     List{ head: None}
   }
+
+  
   pub fn push(&mut self, elem: T) {
     let new_node = Box::new(Node {
       elem: elem,
@@ -23,10 +25,18 @@ impl<T> List<T> {
 
     self.head = Some(new_node)
   }
+
+  
   pub fn pop (&mut self) -> Option<T> {
     self.head.take().map(|node| { 
          self.head = node.next;
          node.elem
+    })
+  }
+
+  pub fn peek(&self) -> Option<&T> {
+    self.head.as_ref().map(|node| {
+      &node.elem
     })
   }
 }
